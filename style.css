@@ -1,0 +1,445 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  padding: 0%;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family: 'Poppins', sans-serif;
+}
+
+.text-white {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-white-rgb),var(--bs-text-opacity))!important;
+  font-weight: 600;
+}
+
+
+
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center ;
+}
+
+/*Header*/
+.hero_header{
+  background-color: #88C546;
+  padding: 0 5rem ;
+}
+
+.header-width{
+  max-width: 1200px;
+}
+
+.hero_header img{
+  width: 150px;
+}
+
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: 0  !important;
+  font-weight: 0 !important;
+  line-height: 1.2 !important;
+  color: var(--bs-heading-color);
+  font-size: none !important;
+}
+
+h5, h5 {
+  font-size: 1rem !important;
+}
+
+
+
+/*----------------Seccion Omorfia------------------*/
+
+
+
+.sectionOmorfia{
+  /* background-image: radial-gradient(ellipse farthest-corner at 90% 25% , #88C546 60%, rgba(0, 0, 0, 0) 0%, #fff 50%); */
+  background-color: #88C546;
+  padding-top: 2rem;
+  padding-bottom: 5rem;
+}
+
+.omorfia{
+  --bs-gutter-x: 0 !important;
+  height: 100%;
+  width: 70%;
+
+}
+
+.portada{
+  box-shadow: 10px 10px 80px rgb(204, 204, 204);
+}
+
+.sectionOmorfiaText{
+  width: 60%;
+}
+.sectionOmorfiaText h5 {
+  font-weight: 400 !important;
+  line-height: 1.4 !important;
+  word-spacing:.4rem;
+}
+
+
+.sectionOmorfiaImg{
+  height: 100;
+  padding-right: 0 !important;
+}
+
+.sectionOmorfiaImg img{
+  width: 350px;
+}
+
+.nav-link:hover{
+  color: black;
+  transition: color 0.3s ease;
+}
+
+
+
+/*----------------Seccion Comic------------------*/
+
+.sectionComic{
+  max-width: 1400px;
+  padding: 0rem 5rem ;
+  margin: 5rem 0rem 10rem 0rem!important;
+}
+
+h2{
+  color: #334D21;
+}
+
+h4{
+  color: #88C546;
+}
+
+.sectionComic a{
+  background-color: #88C546;
+}
+
+.sectionComic a:hover{
+  background-color: #7cb440;
+  color: white;
+}
+
+
+/*----------------Seccion Personaje------------------*/
+
+.SectionPersonajes{
+  position: relative;
+  background-image:url(./img/escenario1.png);
+  background-size: cover;
+  overflow: hidden;
+  width: 82%;
+  height: 90vh;
+  margin-bottom: 6rem;
+  /* height: calc(100vh - 75px); */
+}
+
+.sectionPersonajesControlador{
+  max-width: 900px;
+  width: 100%;
+  height: 88vh;
+  position: relative;
+}
+
+.info-Personajes{
+  background-color: rgba(255, 255, 255, 0.925);
+}
+
+.personajes-miniaturas{
+  width: 100%;
+}
+
+
+.titlePersonaje{
+  font-size: 4rem;
+  font-weight: 500;
+}
+.cambiarfondo{
+  cursor: pointer;
+  width: fit-content;
+  height: fit-content;
+  background-color: #88C546;
+}
+
+.cambiarfondo:hover{
+  background-color: #7cb440;
+  color: white;
+}
+
+
+.descripcionPersonaje{
+  
+  
+  width: 550px;
+  padding: 10px 10px 10px 15px;
+}
+
+.Personajes{
+  cursor: pointer;
+  justify-content: center;
+  align-items: center;
+}
+
+.Personajes img{
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+.Personajes p{
+  margin-bottom: 0;
+}
+
+.imgPersonaje img{
+  height: 85%;
+  position: absolute;
+  right: 100px;
+  bottom: 0px;;
+}
+
+.animacionPersonaje{
+  animation: personaje .2s ;
+}
+
+@keyframes personaje{
+  0%{
+      transform: translatex(1000px);
+  }
+  100%{
+      transform: translatex(0px);  
+  }
+}
+
+
+i{
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+
+.luis, .ana, .sofia, .gomez{
+  background-color: rgba(0, 0, 0, 0.256);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 5px;
+  
+}
+
+.Personajes p{
+  padding: .5rem;
+  background-color: rgba(0, 0, 0, 0.709);
+  color: white;
+  width: 100%;
+  text-align: center;
+}
+
+
+/*----------------Seccion aboutUs------------------*/
+
+.sobreNosotros{
+  max-width: 1400px;
+  padding: 0 5rem ;
+  margin: auto auto 5rem auto;
+}
+
+.sobreNosotros img{
+  width: 250px;
+
+}
+
+
+/*-------------------Footer----------------------*/
+
+.sectionFooter{
+  background-color: #E8E8E8;
+}
+
+.footer{
+  background-color: #E8E8E8;
+  padding: 0 5rem 1rem 0;
+}
+
+.footer img{
+  width: 150px;
+}
+
+.div-logo{
+  display: flex;
+  align-items: center;
+}
+
+
+
+
+
+
+@media screen and (min-width: 0px){
+  .hero_header, .sectionComic, .sobreNosotros, .footer{
+  padding: 0 1.5rem ;
+}
+.sectionOmorfiaText {
+  width: 80%;
+}
+.sectionOmorfiaImg img {
+  width: 250px;
+}
+.sobreNosotros img {
+  width: 175px;
+}
+.sectionOmorfia{
+  height: auto;
+}
+.hero_header{
+  padding: 0;
+}
+}
+
+@media screen and (max-width: 576px){
+
+  .titlePersonaje{
+    font-size: 2rem;
+  }
+  .cambiarfondo{
+    font-size: .8rem;
+  }
+}
+
+@media screen and (min-width: 576px){
+  .hero_header, .sectionComic, .sobreNosotros, .footer{
+    padding: 0 3rem ;
+  }
+}
+
+@media screen and (max-width: 673px){
+  .imgPersonaje img{
+    position: absolute;
+    top: 0.05rem;
+    right: -0.5rem;
+    width: 127%;
+    height: auto;
+}
+}
+
+@media screen and (max-width: 768px){
+  .descripcionPersonaje{
+    display: none !important;
+  }
+  
+  .info-Personajes{
+    height: 75%;
+  }
+}
+
+@media screen and (max-width: 992px){
+  .descripcionPersonaje{
+    width: 300px;
+  }
+  .omorfia{
+    margin-top: 50px;
+  }
+  .menu-navegacion{
+    background-color: #7fb841;
+  }
+}
+
+@media screen and (min-width: 992px){
+  .hero_header, .sectionComic, .sobreNosotros, .footer{
+  padding: 0 5rem ;
+}
+.sectionOmorfiaText {
+  width: 60%;
+}
+.sectionOmorfiaImg img {
+  width: 350px;
+}
+.sobreNosotros img {
+  width: 250px;
+}
+/* .sectionOmorfia{
+  height: 100vh;
+} */
+}
+
+@media screen and (max-width: 1000px) {
+  .header-width{
+  max-width: 100%;
+}
+} 
+  
+
+
+
+@media screen and (max-width: 1350px) {
+  .imgPersonaje img{
+    /* content: url(./img/juan_small.png); */
+  }
+} 
+  
+
+@media screen and (min-width: 1350px){
+  .imgPersonaje img{
+    right: 40px;
+  }
+}
+
+@media screen and (min-width: 1400px){
+  .imgPersonaje img{
+    right: 100px;
+  }
+}
+
+
+/*para que la informacion de los personajes no quede an la esquina en pantallas muy grandes*/
+@media screen and (min-width: 1400px){
+  .info-Personajes{
+    position: absolute;
+    left: -100px;
+    top: 20%;
+  }
+  .list-personajes{
+    padding: 1rem;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+  }
+}
+
+
+.navbar, .hero_header .navbar-brand{
+  padding: 0!important;
+}
+
+.bg-body-tertiary {
+  background-color: #88C546 !important;
+}
+
+.row{
+  --bs-gutter-x: 0rem !important;
+  flex-shrink: none !important;
+}
+
+.navbar-toggler {
+  background-color: #7fb841;
+  border: none;
+}
+
+.navbar-toggler:focus {
+  box-shadow: 0 0 0
+}
+
+
+
+
+
+
+.sectionOmorfia, .sectionComic, .sectionFooter{
+  overflow-y: hidden;
+}
+
+
+

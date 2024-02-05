@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omorfia</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <section class=" sectionOmorfia m-auto  text-white d-flex flex-column align-items-center" id="sectionOmorfia">
+        <header class="hero_header w-100 fw-medium">
+            <div class="row w-100 header-width d-flex justify-content-center m-auto ">
+                <div class="col-12">
+                    <nav class="navbar navbar-expand-lg bg-body-tertiary"> <!--fixed-top-->
+                        <div class="container-fluid">
+                            <a class="navbar-brand" href="#sectionOmorfia"><img src="./img/logo.png" alt=""></a>
+                            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="text-white"><i class="bi bi-list"></i></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                                <div
+                                    class="navbar-nav menu menu-navegacion text-white align-items-end  ms-lg-auto gap-3">
+                                    <a class="nav-link text-white fs-5 active navText" aria-current="page"
+                                        href="#sectionOmorfia">OMORFIA</a>
+                                    <a class="nav-link text-white fs-5 navText" href="#sectionComic">COMIC</a>
+                                    <a class="nav-link text-white fs-5 navText" href="#imgFondo">PERSONAJES</a>
+                                </div>
+                            </div>
+                        </div>
+                    </nav>
+                </div>
+            </div>
+        </header>
+        <div class="omorfia row">
+            <div class="col-12 col-lg-6 col-xl-7 d-flex flex-column align-items-center justify-content-center">
+                <div class="sectionOmorfiaText mt-5  mb-5  text-center">
+                    <h1>OMORFIA</h1>
+                    <h5 class="mt-3">Somos un proyecto formativo que busca informar y sensibilizar de manera dinámica y
+                        diferente acercade los beneficios que trae para la economía del país y
+                        para la salud de los habitantes de Medellín y su área metropolitana el consumo de
+                        alimentos del sector agropecuario nacional ¿Cómo lo lograremos? ¡Mediante un cómic digital
+                        interactivo! Lo cual le da un toque más divertido al tema. ¡Sé parte de esta aventura!
+                    </h5>
+                </div>
+            </div>
+            <div id="omorfiaImg"  class="col-12 col-lg-6 col-xl-5 pb-5 pt-lg-5 sectionOmorfiaImg d-flex align-items-center justify-content-center h-100 overflow-hidden">
+                <img src="./img/portada.png" class="d-block portada" alt="...">         
+            </div>
+
+                <!-- <div class="imgOmorfia">
+                    <img src="./img/robot.png" class="" alt="">
+                </div> -->
+            
+        </div>
+    </section>
+    
+    <section class="sectionComic m-auto  " id="sectionComic">
+        <div class="row comicMouse">
+            <div class="row my-5">
+                <div class="col-12 mb-5">
+                    <h2 class="text-center">El sabor de la salud</h2>
+                </div>
+            </div>
+            <div class="row d-flex  align-items-center justify-content-center">
+                <div id="ComicTrailer" class="col-12 col-xl-6 d-flex justify-content-center mb-5 mb-xl-0">
+                    <iframe width="560" height="315"
+                        src="https://www.youtube.com/embed/qKGdeD4OZRw?si=CXPpuch7i2rMZf34"
+                        title="YouTube video player" frameborder="0" allowfullscreen></iframe>
+                </div>
+                <div class="col-12 col-xl-6 text-center">
+                    <h4  class="mb-4">Sinopsis</h4>
+                    <p  class="mb-5">Este comic sigue la vida de Juan, Ana y su hijo Lucas, quienes <br>se enfrentan a
+                        problemas de salud debido a su dieta poco <br>saludable. ¡Unete a ellos en su viaje hacia la salud!
+                        <br>La historia destaca la importancia de una alimentación <br>saludable y su impacto positivo en la
+                        comunidad.
+                    </p>
+                    <a  class="btn btn-comic py-2 px-3" href="https://overwatcha.github.io/comicFinal/" role="button" target="_blank">Ir al comic</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div style="height: 10px;"></div>
+
+
+    <section id="imgFondo" class="SectionPersonajes   d-flex  align-items-end justify-content-center">
+        <!-- vh-100 -->
+        <div class="imgPersonaje"><img id="imagenPrincipal" src="./img/luis_large.png" alt=""></div>
+        <div class="  sectionPersonajesControlador pb-4 px-md-5 pb-md-5 px-lg-0 d-flex align-content-between flex-wrap">
+            <div class="info-Personajes gap-3 d-flex flex-md-column align-items-center align-items-md-start">
+                <div class="d-flex flex-column flex-md-row gap-md-3 nombrePersonaje px-4">
+                    <h1 id="titulo" class="titlePersonaje">LUIS</h1>
+                    <p id="fondoText" class="cambiarfondo py-md-2 px-2 px-md-3 rounded-pill mt-md-3">
+                        CAMBIAR FONDO</p>
+                </div>
+
+                <div class="descripcionPersonaje d-flex gap-3 ">
+                    <i class="bi bi-suit-diamond"></i>
+                    <p id="parrafo">Hombre de mediana edad y padre de Sofia.<br>Es consciente de los
+                        problemas de
+                        alimentación poco saludable de su familia
+                        y muestra interés en investigar y cambiar su dieta.<br>Es reflexivo y se siente
+                        culpable por
+                        no haberse dado cuenta antes de los
+                        efectos negativos de la comida chatarra. <br>Está comprometido en mejorar la salud
+                        de su
+                        familia.</p>
+                </div>
+            </div>
+
+            <div class="personajes-miniaturas">
+                <div class="list-personajes d-flex px-3">
+                    <div id="personajes" class="Personajes m-auto pb-2 d-flex gap-2 gap-md-4">
+                        <div class="luis">
+                            <img id="luis" src="./img/LuisPrev.png" alt="">
+                            <p>Luis</p>
+                        </div>
+                        <div class="ana">
+                            <img id="ana" src="./img/AnaPrev.png" alt="">
+                            <p>Ana</p>
+                        </div>
+                        <div class="sofia">
+                            <img id="sofia" src="./img/SofiaPrev.png" alt="">
+                            <p>Sofia</p>
+                        </div>
+                        <div class="gomez">
+                            <img id="gomez" src="./img/GomezPrev.png" alt="">
+                            <p>Gomez</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+    <section class="sobreNosotros ">
+        <div class="row">
+            <div class="row my-5">
+                <div class="col-12">
+                    <h2 class="text-center">Sobre Nosotros</h2>
+                </div>
+            </div>
+            <div class="row d-flex align-items-center justify-content-center">
+                <div class="col-12 col-lg-6 mb-5 mb-lg-0 d-flex justify-content-center">
+                    <img  src="./img/foto-perfil.png" class="rounded-circle" alt="">
+                </div>
+                <div class="col-12 col-lg-6 text-center my-5 p3-5">
+                    <h4 class="mb-3">Angie Lobo</h4>
+                    <p class="mb-3">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor cupiditate quo
+                        facere aliquam iste soluta quia veritatis quos rem fuga perferendis vel totam, adipisci quisquam
+                        reprehenderit odio recusandae obcaecati saepe!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div style="height: 10px;"></div>
+
+    <footer class="footer mt-5 w-100">
+        <div class="row w-100 header-width d-flex justify-content-center m-auto ">
+            <div class="col-12 col-md-2 d-flex justify-content-center">
+                <a class="navbar-brand div-logo" href="#sectionOmorfia"><img src="./img/logo.png" alt=""></a>
+            </div>
+            <div class="col-12 col-md-10 d-md-flex align-items-center flex-row-reverse mt-3 mb-3  mt-0 mb-0">
+                <div class="d-md-flex gap-4 text-center pr-3">
+                    <a class="nav-link fs-1 active" aria-current="page" href=""><i class="bi bi-instagram"></i></a>
+                    <a class="nav-link fs-1" href=""><i class="bi bi-facebook"></i></a>
+                    <a class="nav-link fs-1" href=""><i class="bi bi-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+
+
+</body>
+
+
+
+
+<script src="./js.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+    crossorigin="anonymous"></script>
+
+</html>
